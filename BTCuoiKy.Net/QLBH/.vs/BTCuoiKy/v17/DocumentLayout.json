@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|c:\\users\\laonh\\onedrive\\desktop\\nhat_cpp\\laptring.net\\btcuoiky.net\\qlbh\\qlbh\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\qlbh\\frmtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\qlbh\\frmtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\qlbh\\frmhethong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmhethong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\qlbh\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\qlbh\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\qlbh\\frmtacgia.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmtacgia.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmSanPham.cs",
+              "DocumentMoniker": "C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\QLBH\\frmSanPham.cs",
+              "RelativeDocumentMoniker": "QLBH\\frmSanPham.cs",
+              "ToolTip": "C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\QLBH\\frmSanPham.cs",
+              "RelativeToolTip": "QLBH\\frmSanPham.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAowFgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T05:58:33.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmTacGia.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\QLBH\\frmTacGia.Designer.cs",
+              "RelativeDocumentMoniker": "QLBH\\frmTacGia.Designer.cs",
+              "ToolTip": "C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\QLBH\\frmTacGia.Designer.cs",
+              "RelativeToolTip": "QLBH\\frmTacGia.Designer.cs",
+              "ViewState": "AgIAAEUBAAAAAAAAAAArwF8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T11:29:42.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmHeThong.cs",
+              "DocumentMoniker": "C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\QLBH\\frmHeThong.cs",
+              "RelativeDocumentMoniker": "QLBH\\frmHeThong.cs",
+              "ToolTip": "C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\QLBH\\frmHeThong.cs",
+              "RelativeToolTip": "QLBH\\frmHeThong.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAewC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T11:27:55.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmTacGia.cs",
+              "DocumentMoniker": "C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\QLBH\\frmTacGia.cs",
+              "RelativeDocumentMoniker": "QLBH\\frmTacGia.cs",
+              "ToolTip": "C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\QLBH\\frmTacGia.cs",
+              "RelativeToolTip": "QLBH\\frmTacGia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T11:26:35.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmTacGia.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\QLBH\\frmTacGia.cs",
+              "RelativeDocumentMoniker": "QLBH\\frmTacGia.cs",
+              "ToolTip": "C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\QLBH\\frmTacGia.cs [Design]",
+              "RelativeToolTip": "QLBH\\frmTacGia.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T11:21:43.964Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KetNoi.cs",
+              "DocumentMoniker": "C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\QLBH\\KetNoi.cs",
+              "RelativeDocumentMoniker": "QLBH\\KetNoi.cs",
+              "ToolTip": "C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\QLBH\\KetNoi.cs",
+              "RelativeToolTip": "QLBH\\KetNoi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T05:55:03.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmSanPham.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\QLBH\\frmSanPham.cs",
+              "RelativeDocumentMoniker": "QLBH\\frmSanPham.cs",
+              "ToolTip": "C:\\Users\\laonh\\OneDrive\\Desktop\\Nhat_Cpp\\Laptring.net\\BTCuoiKy.Net\\QLBH\\QLBH\\frmSanPham.cs [Design]",
+              "RelativeToolTip": "QLBH\\frmSanPham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T10:01:59.399Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\bin\Debug\QLBH.exe.config
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\bin\Debug\QLBH.exe
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\bin\Debug\QLBH.pdb
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.csprojAssemblyReference.cache
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.frmHeThong.resources
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.cache
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.exe
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.pdb
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.frmDangNhap.resources
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.frmSanPham.resources
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.frmBaoCao.resources
+C:\Users\laonh\Downloads\QLBH\QLBH\QLBH\bin\Debug\QLBH.exe.config
+C:\Users\laonh\Downloads\QLBH\QLBH\QLBH\bin\Debug\QLBH.exe
+C:\Users\laonh\Downloads\QLBH\QLBH\QLBH\bin\Debug\QLBH.pdb
+C:\Users\laonh\Downloads\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+C:\Users\laonh\Downloads\QLBH\QLBH\QLBH\obj\Debug\QLBH.frmBaoCao.resources
+C:\Users\laonh\Downloads\QLBH\QLBH\QLBH\obj\Debug\QLBH.frmDangNhap.resources
+C:\Users\laonh\Downloads\QLBH\QLBH\QLBH\obj\Debug\QLBH.frmHeThong.resources
+C:\Users\laonh\Downloads\QLBH\QLBH\QLBH\obj\Debug\QLBH.frmSanPham.resources
+C:\Users\laonh\Downloads\QLBH\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
+C:\Users\laonh\Downloads\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.cache
+C:\Users\laonh\Downloads\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+C:\Users\laonh\Downloads\QLBH\QLBH\QLBH\obj\Debug\QLBH.exe
+C:\Users\laonh\Downloads\QLBH\QLBH\QLBH\obj\Debug\QLBH.pdb
+C:\Users\laonh\Downloads\QLBH\QLBH\QLBH\obj\Debug\QLBH.frmLoaiSP.resources
+C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmBaoCao.resources
+C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmDangNhap.resources
+C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmHeThong.resources
+C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmLoaiSP.resources
+C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmSanPham.resources
+C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
+C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.cache
+C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.exe
+C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.pdb
+C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\bin\Debug\QLBH.exe.config
+C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\bin\Debug\QLBH.exe
+C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\bin\Debug\QLBH.pdb
+C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmTacGia.resources
