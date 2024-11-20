@@ -40,3 +40,19 @@ C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\bin
 C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\bin\Debug\QLBH.exe
 C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\bin\Debug\QLBH.pdb
 C:\Users\laonh\OneDrive\Desktop\Nhat_Cpp\Laptring.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmTacGia.resources
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\bin\Debug\QLBH.exe.config
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\bin\Debug\QLBH.exe
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\bin\Debug\QLBH.pdb
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmBaoCao.resources
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmDangNhap.resources
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmHeThong.resources
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmLoaiSP.resources
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmSanPham.resources
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmTacGia.resources
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.cache
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.exe
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.pdb
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmNhanVien.resources
