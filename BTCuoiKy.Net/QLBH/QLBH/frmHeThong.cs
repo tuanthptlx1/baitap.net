@@ -15,6 +15,7 @@ namespace QLBH
         public frmHeThong()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void loạiSảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
