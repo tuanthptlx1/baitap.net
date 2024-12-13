@@ -34,7 +34,7 @@
             this.txtTaiKhoan = new System.Windows.Forms.TextBox();
             this.txtMatKhau = new System.Windows.Forms.TextBox();
             this.btnDangNhap = new System.Windows.Forms.Button();
-            this.btnThoat = new System.Windows.Forms.Button();
+            this.lblDangKy = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // label1
@@ -87,7 +87,7 @@
             // 
             // btnDangNhap
             // 
-            this.btnDangNhap.Location = new System.Drawing.Point(111, 210);
+            this.btnDangNhap.Location = new System.Drawing.Point(222, 196);
             this.btnDangNhap.Margin = new System.Windows.Forms.Padding(4);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(100, 28);
@@ -96,23 +96,23 @@
             this.btnDangNhap.UseVisualStyleBackColor = true;
             this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
             // 
-            // btnThoat
+            // lblDangKy
             // 
-            this.btnThoat.Location = new System.Drawing.Point(285, 210);
-            this.btnThoat.Margin = new System.Windows.Forms.Padding(4);
-            this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(100, 28);
-            this.btnThoat.TabIndex = 4;
-            this.btnThoat.Text = "Thoát";
-            this.btnThoat.UseVisualStyleBackColor = true;
-            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            this.lblDangKy.AutoSize = true;
+            this.lblDangKy.Location = new System.Drawing.Point(136, 241);
+            this.lblDangKy.Name = "lblDangKy";
+            this.lblDangKy.Size = new System.Drawing.Size(294, 16);
+            this.lblDangKy.TabIndex = 5;
+            this.lblDangKy.TabStop = true;
+            this.lblDangKy.Text = "Nếu chưa có tài khoản ? Bấm vô đây để đăng ký";
+            this.lblDangKy.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblDangKy_LinkClicked);
             // 
             // frmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(501, 284);
-            this.Controls.Add(this.btnThoat);
+            this.Controls.Add(this.lblDangKy);
             this.Controls.Add(this.btnDangNhap);
             this.Controls.Add(this.txtMatKhau);
             this.Controls.Add(this.txtTaiKhoan);
@@ -136,6 +136,6 @@
         private System.Windows.Forms.TextBox txtTaiKhoan;
         private System.Windows.Forms.TextBox txtMatKhau;
         private System.Windows.Forms.Button btnDangNhap;
-        private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.LinkLabel lblDangKy;
     }
 }

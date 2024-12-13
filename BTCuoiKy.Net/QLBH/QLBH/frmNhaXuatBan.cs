@@ -46,11 +46,10 @@ namespace QLBH
                   "INSERT INTO NhaXuatBan (MaNhaXuatBan, TenNhaXuatBan, DiaChi, DienThoai, Email) " +
                   "VALUES ('{0}', N'{1}', N'{2}', N'{3}', N'{4}', '{5}')",
                   txtMaNhaXuatBan.Text,
-              txtTenNhaXuatBan.Text,
-
-          txtDiaChi.Text,
-          txtDienThoai.Text,
-          txtEmail.Text
+                  txtTenNhaXuatBan.Text,
+                  txtDiaChi.Text,
+                  txtDienThoai.Text,
+                  txtEmail.Text
               );
 
             if (kn.ThucThi(query) == true)

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2042
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLBH", "QLBH\QLBH.csproj", "{B9858B75-C538-487A-A71C-B50BB78043FD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{AA12B4F4-9856-4156-BDA9-318B28D7B5E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{B9858B75-C538-487A-A71C-B50BB78043FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9858B75-C538-487A-A71C-B50BB78043FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9858B75-C538-487A-A71C-B50BB78043FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA12B4F4-9856-4156-BDA9-318B28D7B5E5}.Debug|Any CPU.ActiveCfg = Debug
+		{AA12B4F4-9856-4156-BDA9-318B28D7B5E5}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

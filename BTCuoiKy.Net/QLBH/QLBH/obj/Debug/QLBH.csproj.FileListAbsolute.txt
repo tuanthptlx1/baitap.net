@@ -56,3 +56,5 @@ E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompil
 E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.exe
 E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.pdb
 E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmNhanVien.resources
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmKhachHang.resources
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmNhaXuatBan.resources

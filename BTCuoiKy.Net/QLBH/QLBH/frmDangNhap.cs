@@ -15,6 +15,7 @@ namespace QLBH
         public frmDangNhap()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         KetNoi kn = new KetNoi();
@@ -50,6 +51,15 @@ namespace QLBH
         private void frmDangNhap_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void lblDangKy_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmDangKy frm = new frmDangKy();
+            frm.StartPosition = FormStartPosition.CenterScreen; 
+            frm.FormClosed += (s, args) => this.Close();
+            this.Hide();
+            frm.ShowDialog();
         }
     }
 }
