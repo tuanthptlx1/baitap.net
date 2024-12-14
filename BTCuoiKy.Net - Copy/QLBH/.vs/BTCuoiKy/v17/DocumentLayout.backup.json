@@ -1,0 +1,175 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|c:\\users\\laonh\\downloads\\btcuoiky.net\\qlbh\\qlbh\\frmbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|c:\\users\\laonh\\downloads\\btcuoiky.net\\qlbh\\qlbh\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|c:\\users\\laonh\\downloads\\btcuoiky.net\\qlbh\\qlbh\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|c:\\users\\laonh\\downloads\\btcuoiky.net\\qlbh\\qlbh\\frmhethong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmhethong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|c:\\users\\laonh\\downloads\\btcuoiky.net\\qlbh\\qlbh\\frmhethong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmhethong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\qlbh\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|c:\\users\\laonh\\downloads\\btcuoiky.net\\qlbh\\qlbh\\frmloaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmloaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|c:\\users\\laonh\\downloads\\btcuoiky.net\\qlbh\\qlbh\\frmhoadon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmhoadon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|c:\\users\\laonh\\downloads\\btcuoiky.net\\qlbh\\qlbh\\frmloaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmloaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmHoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmHoaDon.cs",
+              "RelativeDocumentMoniker": "QLBH\\frmHoaDon.cs",
+              "ToolTip": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmHoaDon.cs",
+              "RelativeToolTip": "QLBH\\frmHoaDon.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAkwIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:40:36.992Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmBaoCao.cs",
+              "DocumentMoniker": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmBaoCao.cs",
+              "RelativeDocumentMoniker": "QLBH\\frmBaoCao.cs",
+              "ToolTip": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmBaoCao.cs",
+              "RelativeToolTip": "QLBH\\frmBaoCao.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAApwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:01:12.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmHeThong.cs",
+              "DocumentMoniker": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmHeThong.cs",
+              "RelativeDocumentMoniker": "QLBH\\frmHeThong.cs",
+              "ToolTip": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmHeThong.cs",
+              "RelativeToolTip": "QLBH\\frmHeThong.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAEwEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:52:35.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmHoaDon.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmHoaDon.Designer.cs",
+              "RelativeDocumentMoniker": "QLBH\\frmHoaDon.Designer.cs",
+              "ToolTip": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmHoaDon.Designer.cs",
+              "RelativeToolTip": "QLBH\\frmHoaDon.Designer.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAewFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:45:07.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmHoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmHoaDon.cs",
+              "RelativeDocumentMoniker": "QLBH\\frmHoaDon.cs",
+              "ToolTip": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmHoaDon.cs [Design]",
+              "RelativeToolTip": "QLBH\\frmHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:50:31.286Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmHeThong.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmHeThong.cs",
+              "RelativeDocumentMoniker": "QLBH\\frmHeThong.cs",
+              "ToolTip": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmHeThong.cs [Design]",
+              "RelativeToolTip": "QLBH\\frmHeThong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:33:19.827Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmLoaiSP.cs",
+              "DocumentMoniker": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmLoaiSP.cs",
+              "RelativeDocumentMoniker": "QLBH\\frmLoaiSP.cs",
+              "ToolTip": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmLoaiSP.cs",
+              "RelativeToolTip": "QLBH\\frmLoaiSP.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:15:20.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmLoaiSP.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmLoaiSP.cs",
+              "RelativeDocumentMoniker": "QLBH\\frmLoaiSP.cs",
+              "ToolTip": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmLoaiSP.cs [Design]",
+              "RelativeToolTip": "QLBH\\frmLoaiSP.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:03:42.739Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmSanPham.cs",
+              "DocumentMoniker": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmSanPham.cs",
+              "RelativeDocumentMoniker": "QLBH\\frmSanPham.cs",
+              "ToolTip": "C:\\Users\\laonh\\Downloads\\BTCuoiKy.Net\\QLBH\\QLBH\\frmSanPham.cs",
+              "RelativeToolTip": "QLBH\\frmSanPham.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowFoAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T05:58:33.433Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
