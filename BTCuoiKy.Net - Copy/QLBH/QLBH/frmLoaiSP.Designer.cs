@@ -238,6 +238,7 @@
             this.txtMoTa.Name = "txtMoTa";
             this.txtMoTa.Size = new System.Drawing.Size(267, 160);
             this.txtMoTa.TabIndex = 9;
+            this.txtMoTa.TextChanged += new System.EventHandler(this.txtMoTa_TextChanged);
             // 
             // frmLoaiSP
             // 

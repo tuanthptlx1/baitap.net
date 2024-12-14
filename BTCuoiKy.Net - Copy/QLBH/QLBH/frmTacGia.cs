@@ -179,5 +179,10 @@ namespace QLBH
         {
 
         }
+
+        private void txtMaTacGia_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -258,6 +258,7 @@ namespace QLBH
             this.txtMaTacGia.Name = "txtMaTacGia";
             this.txtMaTacGia.Size = new System.Drawing.Size(132, 22);
             this.txtMaTacGia.TabIndex = 0;
+            this.txtMaTacGia.TextChanged += new System.EventHandler(this.txtMaTacGia_TextChanged);
             // 
             // label8
             // 

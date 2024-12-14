@@ -23,7 +23,7 @@ namespace QLBH
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
             string query = string.Format(
-                "select * from DANGNHAP where username = '{0}' and password = '{1}'",
+                "select  * from DANGNHAP where username = '{0}' and password = '{1}'",
                 txtTaiKhoan.Text,
                 txtMatKhau.Text
             );

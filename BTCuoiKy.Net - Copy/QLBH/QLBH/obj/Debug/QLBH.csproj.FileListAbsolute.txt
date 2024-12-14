@@ -98,3 +98,23 @@ D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH
 D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
 D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.exe
 D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.pdb
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\bin\Debug\QLBH.exe.config
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\bin\Debug\QLBH.exe
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\bin\Debug\QLBH.pdb
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmBaoCao.resources
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmDangKy.resources
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmDangNhap.resources
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmHeThong.resources
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmHoaDon.resources
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmKhachHang.resources
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmLoaiSP.resources
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmNhanVien.resources
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmNhaXuatBan.resources
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmSanPham.resources
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmTacGia.resources
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.cache
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.exe
+E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.pdb

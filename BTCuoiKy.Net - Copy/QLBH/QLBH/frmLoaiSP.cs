@@ -174,5 +174,10 @@ namespace QLBH
             DataSet ds = kn.LayDuLieu(query);
             dgvTheLoai.DataSource = ds.Tables[0];
         }
+
+        private void txtMoTa_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

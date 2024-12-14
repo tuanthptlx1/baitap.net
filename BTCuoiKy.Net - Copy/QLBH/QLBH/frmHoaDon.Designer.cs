@@ -134,6 +134,7 @@
             this.txtTongTien.Name = "txtTongTien";
             this.txtTongTien.Size = new System.Drawing.Size(215, 22);
             this.txtTongTien.TabIndex = 11;
+            this.txtTongTien.TextChanged += new System.EventHandler(this.txtTongTien_TextChanged);
             // 
             // label4
             // 
@@ -167,6 +168,7 @@
             this.txtMaHoaDon.Name = "txtMaHoaDon";
             this.txtMaHoaDon.Size = new System.Drawing.Size(132, 22);
             this.txtMaHoaDon.TabIndex = 0;
+            this.txtMaHoaDon.TextChanged += new System.EventHandler(this.txtMaHoaDon_TextChanged);
             // 
             // label6
             // 

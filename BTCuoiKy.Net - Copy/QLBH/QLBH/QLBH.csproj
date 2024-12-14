@@ -112,6 +112,12 @@
       <DependentUpon>frmTacGia.cs</DependentUpon>
     </Compile>
     <Compile Include="KetNoi.cs" />
+    <Compile Include="PhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhieuNhap.Designer.cs">
+      <DependentUpon>PhieuNhap.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmBaoCao.resx">
@@ -146,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmTacGia.resx">
       <DependentUpon>frmTacGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhieuNhap.resx">
+      <DependentUpon>PhieuNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
