@@ -77,3 +77,4 @@ D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.csproj
 D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
 D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.exe
 D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.pdb
+E:\luu upload\baitap.net\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmDangKy.resources
