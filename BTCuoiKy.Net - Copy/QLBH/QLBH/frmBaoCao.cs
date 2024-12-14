@@ -27,7 +27,14 @@ namespace QLBH
                 txtNam.Text
             );
             DataSet ds = kn.LayDuLieu(query);
-            dgvThongKe.DataSource = ds.Tables[0];
+            if (ds.Tables[0].Rows.Count == 0)
+            {
+                MessageBox.Show("Không có dữ liệu ! ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                dgvThongKe.DataSource = ds.Tables[0];
+            }
         }
     }
 }

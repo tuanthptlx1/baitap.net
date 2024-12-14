@@ -78,3 +78,23 @@ C:\Users\laonh\Downloads\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompil
 C:\Users\laonh\Downloads\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.exe
 C:\Users\laonh\Downloads\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.pdb
 C:\Users\laonh\Downloads\BTCuoiKy.Net\QLBH\QLBH\obj\Debug\QLBH.frmHoaDon.resources
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\bin\Debug\QLBH.exe.config
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\bin\Debug\QLBH.exe
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\bin\Debug\QLBH.pdb
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmBaoCao.resources
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmDangKy.resources
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmDangNhap.resources
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmHeThong.resources
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmHoaDon.resources
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmKhachHang.resources
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmLoaiSP.resources
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmNhanVien.resources
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmNhaXuatBan.resources
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmSanPham.resources
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.frmTacGia.resources
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.cache
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.exe
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.pdb

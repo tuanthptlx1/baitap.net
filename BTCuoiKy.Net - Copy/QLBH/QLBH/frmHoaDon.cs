@@ -59,7 +59,7 @@ namespace QLBH
         {
             string query = string.Format(
                 "INSERT INTO HoaDon (MaHoaDon, NgayLap, MaKhachHang,TongTien ) " +
-                "VALUES ('{0}', N'{1}', N'{2}',N'{3}')",
+                "VALUES ('{0}', '{1}', '{2}','{3}')",
                 txtMaHoaDon.Text,
                 txtNgayLap.Text,
                 txtMaKhachHang.Text,
