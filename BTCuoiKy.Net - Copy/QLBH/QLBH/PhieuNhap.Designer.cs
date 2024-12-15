@@ -240,6 +240,8 @@
             this.dgvPhieuNhap.RowHeadersWidth = 51;
             this.dgvPhieuNhap.Size = new System.Drawing.Size(872, 606);
             this.dgvPhieuNhap.TabIndex = 0;
+            this.dgvPhieuNhap.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPhieuNhap_CellClick);
+            this.dgvPhieuNhap.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgvPhieuNhap_MouseClick);
             // 
             // btnTimKiem
             // 
@@ -270,6 +272,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "PhieuNhap";
             this.Text = "PhieuNhap";
+            
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);

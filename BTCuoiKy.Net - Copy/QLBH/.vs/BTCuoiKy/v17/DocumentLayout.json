@@ -1,62 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\",
+  "WorkspaceRootPath": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|e:\\baitapc#\\baitap.net\\btcuoiky.net - copy\\qlbh\\qlbh\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|e:\\baitapc#\\baitap.net\\btcuoiky.net - copy\\qlbh\\qlbh\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|e:\\baitapc#\\baitap.net\\btcuoiky.net - copy\\qlbh\\qlbh\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmhoadon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmhoadon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmloaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmloaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|e:\\baitapc#\\baitap.net\\btcuoiky.net - copy\\qlbh\\qlbh\\frmtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|e:\\baitapc#\\baitap.net\\btcuoiky.net - copy\\qlbh\\qlbh\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|e:\\baitapc#\\baitap.net\\btcuoiky.net - copy\\qlbh\\qlbh\\frmtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|e:\\baitapc#\\baitap.net\\btcuoiky.net - copy\\qlbh\\qlbh\\frmloaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmloaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmhethong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmhethong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmhethong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmhethong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmhethong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmhethong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmhethong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|d:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\btcuoiky.net - copy\\qlbh\\qlbh\\phieunhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\phieunhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmloaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmloaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|d:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\btcuoiky.net - copy\\qlbh\\qlbh\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmhoadon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmhoadon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\qlbh\\frmloaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmloaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,15 +70,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 14,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "PhieuNhap.Designer.cs",
+              "DocumentMoniker": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\PhieuNhap.Designer.cs",
+              "RelativeDocumentMoniker": "QLBH\\PhieuNhap.Designer.cs",
+              "ToolTip": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\PhieuNhap.Designer.cs",
+              "RelativeToolTip": "QLBH\\PhieuNhap.Designer.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAArwBIBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T07:31:58.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "frmHoaDon.cs [Design]",
-              "DocumentMoniker": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHoaDon.cs",
+              "DocumentMoniker": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHoaDon.cs",
               "RelativeDocumentMoniker": "QLBH\\frmHoaDon.cs",
-              "ToolTip": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHoaDon.cs [Design]",
+              "ToolTip": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHoaDon.cs [Design]",
               "RelativeToolTip": "QLBH\\frmHoaDon.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T18:29:37.061Z",
@@ -82,24 +103,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PhieuNhap.cs",
-              "DocumentMoniker": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\PhieuNhap.cs",
+              "DocumentMoniker": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\PhieuNhap.cs",
               "RelativeDocumentMoniker": "QLBH\\PhieuNhap.cs",
-              "ToolTip": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\PhieuNhap.cs",
+              "ToolTip": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\PhieuNhap.cs",
               "RelativeToolTip": "QLBH\\PhieuNhap.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAIYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T17:56:43.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PhieuNhap.cs [Design]",
-              "DocumentMoniker": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\PhieuNhap.cs",
+              "DocumentMoniker": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\PhieuNhap.cs",
               "RelativeDocumentMoniker": "QLBH\\PhieuNhap.cs",
-              "ToolTip": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\PhieuNhap.cs [Design]",
+              "ToolTip": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\PhieuNhap.cs [Design]",
               "RelativeToolTip": "QLBH\\PhieuNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T17:49:28.963Z",
@@ -107,91 +128,83 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "frmHoaDon.cs",
-              "DocumentMoniker": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHoaDon.cs",
+              "DocumentMoniker": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHoaDon.cs",
               "RelativeDocumentMoniker": "QLBH\\frmHoaDon.cs",
-              "ToolTip": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHoaDon.cs",
+              "ToolTip": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHoaDon.cs",
               "RelativeToolTip": "QLBH\\frmHoaDon.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAjwIwAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAhwIwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T11:40:36.992Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "frmTacGia.cs",
-              "DocumentMoniker": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmTacGia.cs",
+              "DocumentMoniker": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmTacGia.cs",
               "RelativeDocumentMoniker": "QLBH\\frmTacGia.cs",
-              "ToolTip": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmTacGia.cs",
+              "ToolTip": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmTacGia.cs",
               "RelativeToolTip": "QLBH\\frmTacGia.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T17:56:55.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T17:56:55.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "frmHoaDon.Designer.cs",
-              "DocumentMoniker": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHoaDon.Designer.cs",
+              "DocumentMoniker": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHoaDon.Designer.cs",
               "RelativeDocumentMoniker": "QLBH\\frmHoaDon.Designer.cs",
-              "ToolTip": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHoaDon.Designer.cs",
+              "ToolTip": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHoaDon.Designer.cs",
               "RelativeToolTip": "QLBH\\frmHoaDon.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T11:45:07.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T11:45:07.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "frmTacGia.cs [Design]",
-              "DocumentMoniker": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmTacGia.cs",
+              "DocumentMoniker": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmTacGia.cs",
               "RelativeDocumentMoniker": "QLBH\\frmTacGia.cs",
               "ToolTip": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmTacGia.cs [Design]",
-              "RelativeToolTip": "QLBH\\frmTacGia.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T17:45:39.59Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-14T17:45:39.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "frmSanPham.cs [Design]",
-              "DocumentMoniker": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmSanPham.cs",
+              "DocumentMoniker": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmSanPham.cs",
               "RelativeDocumentMoniker": "QLBH\\frmSanPham.cs",
-              "ToolTip": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmSanPham.cs [Design]",
+              "ToolTip": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmSanPham.cs [Design]",
               "RelativeToolTip": "QLBH\\frmSanPham.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T17:33:54.649Z",
               "EditorCaption": " [Design]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "frmLoaiSP.cs",
-              "DocumentMoniker": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmLoaiSP.cs",
+              "DocumentMoniker": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmLoaiSP.cs",
               "RelativeDocumentMoniker": "QLBH\\frmLoaiSP.cs",
-              "ToolTip": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmLoaiSP.cs",
+              "ToolTip": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmLoaiSP.cs",
               "RelativeToolTip": "QLBH\\frmLoaiSP.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAASwKEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAD4vxoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T10:15:20.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "frmLoaiSP.cs [Design]",
-              "DocumentMoniker": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmLoaiSP.cs",
+              "DocumentMoniker": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmLoaiSP.cs",
               "RelativeDocumentMoniker": "QLBH\\frmLoaiSP.cs",
-              "ToolTip": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmLoaiSP.cs [Design]",
+              "ToolTip": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmLoaiSP.cs [Design]",
               "RelativeToolTip": "QLBH\\frmLoaiSP.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T10:03:42.739Z",
@@ -199,48 +212,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "frmHeThong.cs",
-              "DocumentMoniker": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHeThong.cs",
+              "DocumentMoniker": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHeThong.cs",
               "RelativeDocumentMoniker": "QLBH\\frmHeThong.cs",
-              "ToolTip": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHeThong.cs",
+              "ToolTip": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHeThong.cs",
               "RelativeToolTip": "QLBH\\frmHeThong.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIAxwEoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAewE4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T11:52:35.284Z"
+              "WhenOpened": "2024-12-14T11:52:35.284Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "frmHeThong.cs [Design]",
-              "DocumentMoniker": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHeThong.cs",
+              "DocumentMoniker": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHeThong.cs",
               "RelativeDocumentMoniker": "QLBH\\frmHeThong.cs",
-              "ToolTip": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHeThong.cs [Design]",
+              "ToolTip": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmHeThong.cs [Design]",
               "RelativeToolTip": "QLBH\\frmHeThong.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T10:33:19.827Z"
+              "WhenOpened": "2024-12-14T10:33:19.827Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "frmBaoCao.cs",
-              "DocumentMoniker": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmBaoCao.cs",
+              "DocumentMoniker": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmBaoCao.cs",
               "RelativeDocumentMoniker": "QLBH\\frmBaoCao.cs",
-              "ToolTip": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmBaoCao.cs",
+              "ToolTip": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmBaoCao.cs",
               "RelativeToolTip": "QLBH\\frmBaoCao.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwCYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAjwB0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T12:01:12.256Z"
+              "WhenOpened": "2024-12-14T12:01:12.256Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
               "Title": "frmSanPham.cs",
-              "DocumentMoniker": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmSanPham.cs",
+              "DocumentMoniker": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmSanPham.cs",
               "RelativeDocumentMoniker": "QLBH\\frmSanPham.cs",
-              "ToolTip": "E:\\baitapC#\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmSanPham.cs",
+              "ToolTip": "D:\\c\u00F4ng nghe phan m\u1EC1m\\baitap.net\\BTCuoiKy.Net - Copy\\QLBH\\QLBH\\frmSanPham.cs",
               "RelativeToolTip": "QLBH\\frmSanPham.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowFoAAABgAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwFoAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T05:58:33.433Z",
               "EditorCaption": ""

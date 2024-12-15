@@ -20,9 +20,9 @@ namespace QLBH
         KetNoi kn = new KetNoi();
         public void getData()
         {
-            string query = "select * form PhieuNhap";
+            string query = "SELECT * FROM PhieuNhap";
             DataSet ds = kn.LayDuLieu(query);
-            dgvPhieuNhap.DataSource = ds.Tables;
+            dgvPhieuNhap.DataSource = ds.Tables[0];
         }
         
         public void clearText()
@@ -51,7 +51,7 @@ namespace QLBH
         private void btnThem_Click(object sender, EventArgs e)
         {
             string query = string.Format(
-                         "INSERT INTO HoaDon (MaPhieuNhap, NgayLap, MaNhaXuatBan,TongTien ) " +
+                         "INSERT INTO PhieuNhap (MaPhieuNhap, NgayLap, MaNhaXuatBan,TongTien ) " +
                          "VALUES ('{0}', '{1}', '{2}','{3}')",
                          txtMaPhieuNhap.Text,
                          txtNgayLap.Text,
@@ -133,7 +133,9 @@ namespace QLBH
             DataSet ds = kn.LayDuLieu(query);
             dgvPhieuNhap.DataSource = ds.Tables[0];
         }
-        private void dgvPhieuNhap_CellClick_1(object sender, DataGridViewCellEventArgs e)
+
+
+        private void dgvPhieuNhap_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int r = e.RowIndex;
             if (r >= 0)
@@ -153,7 +155,7 @@ namespace QLBH
             }
         }
 
-        private void dgvPHieuNhap_MouseClick_1(object sender, MouseEventArgs e)
+        private void dgvPhieuNhap_MouseClick(object sender, MouseEventArgs e)
         {
             DataGridView.HitTestInfo hit = dgvPhieuNhap.HitTest(e.X, e.Y);
 
@@ -164,7 +166,7 @@ namespace QLBH
                 int rowIndex = hit.RowIndex;
 
                 // Gán giá trị từ các ô trong DataGridView vào các TextBox
-                txtMaPhieuNhap.Text = dgvPhieuNhap.Rows[rowIndex].Cells["MaHoaDon"].Value.ToString();
+                txtMaPhieuNhap.Text = dgvPhieuNhap.Rows[rowIndex].Cells["MaPhieuNhap"].Value.ToString();
                 txtNgayLap.Text = dgvPhieuNhap.Rows[rowIndex].Cells["NgayLap"].Value.ToString();
                 txtMaNhaXuatBan.Text = dgvPhieuNhap.Rows[rowIndex].Cells["MaNhaXuatBan"].Value.ToString();
                 txtTongTien.Text = dgvPhieuNhap.Rows[rowIndex].Cells["TongTien"].Value.ToString();

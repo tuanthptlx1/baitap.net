@@ -73,5 +73,12 @@ namespace QLBH
             frm.MdiParent = null;
             frm.Show();
         }
+
+        private void nhậpHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PhieuNhap frm = new PhieuNhap();
+            frm.MdiParent = null;
+            frm.Show();
+        }
     }
 }

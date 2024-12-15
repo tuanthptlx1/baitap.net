@@ -118,3 +118,4 @@ E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.csproj.Gener
 E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
 E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.exe
 E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.pdb
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.PhieuNhap.resources
