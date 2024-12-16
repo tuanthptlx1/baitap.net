@@ -52,8 +52,8 @@ namespace QLBH
         {
             // Đảm bảo cột trong bảng 'SanPham' khớp với tên cột trong câu lệnh SQL
             string query = string.Format(
-                "INSERT INTO Sach (MaSach, TenSach, TenTacGia, NhaXuatBan, NgayXuatBan,MaTheLoai Gia, SoLuong) " +
-                "VALUES ('{0}', N'{1}', N'{2}', N'{3}', N'{4}', '{5}', '{6}','{7}')",
+                "INSERT INTO Sach (MaSach, TenSach, TenTacGia, NhaXuatBan, NgayXuatBan,MaTheLoai ,Gia, SoLuong) " +
+                "VALUES ('{0}', N'{1}', N'{2}', N'{3}', N'{4}', N'{5}', N'{6}',N'{7}')",
                 txtMaSach.Text,
                 txtTenSach.Text,
                 txtTenTacGia.Text,

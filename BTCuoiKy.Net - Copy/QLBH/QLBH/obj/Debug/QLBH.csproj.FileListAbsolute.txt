@@ -119,3 +119,9 @@ E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreC
 E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.exe
 E:\baitapC#\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.pdb
 D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.PhieuNhap.resources
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\bin\Debug\QuanLyHieuSach1.mdf
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\bin\Debug\QuanLyHieuSach1_log.ldf
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\bin\Debug\QLBH.exe.manifest
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\bin\Debug\QLBH.application
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.exe.manifest
+D:\công nghe phan mềm\baitap.net\BTCuoiKy.Net - Copy\QLBH\QLBH\obj\Debug\QLBH.application

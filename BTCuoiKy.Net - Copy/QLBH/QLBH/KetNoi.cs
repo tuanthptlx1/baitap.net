@@ -1,21 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
+using System.Configuration;
 
 namespace QLBH
 {
     class KetNoi
     {
-        string conStr = @"Data Source=NHAT\SQLEXPRESS;Initial Catalog=QuanLyHieuSach1;Integrated Security=True";
-        SqlConnection conn;
+        // Chuỗi kết nối
+        private string connectionString;
+        private SqlConnection conn;
+
         public KetNoi()
         {
-            conn = new SqlConnection(conStr);
+            // Lấy chuỗi kết nối từ file App.config
+            connectionString = ConfigurationManager.ConnectionStrings["MyDB"].ConnectionString;
+            conn = new SqlConnection(connectionString);
         }
+
+        // Hàm lấy dữ liệu từ database và trả về DataSet
         public DataSet LayDuLieu(string truyvan)
         {
             try
@@ -25,24 +28,31 @@ namespace QLBH
                 da.Fill(ds);
                 return ds;
             }
-            catch
+            catch (Exception ex)
             {
+                Console.WriteLine("Lỗi khi lấy dữ liệu: " + ex.Message);
                 return null;
             }
         }
+
+        // Hàm thực thi lệnh SQL (INSERT, UPDATE, DELETE)
         public bool ThucThi(string truyvan)
         {
             try
             {
-                conn.Open();
+                conn.Open(); // Mở kết nối
                 SqlCommand cmd = new SqlCommand(truyvan, conn);
                 int r = cmd.ExecuteNonQuery();
-                conn.Close();
-                return r > 0;
+                return r > 0; // Trả về true nếu có dòng được thực thi
             }
-            catch
+            catch (Exception ex)
             {
+                Console.WriteLine("Lỗi khi thực thi SQL: " + ex.Message);
                 return false;
+            }
+            finally
+            {
+                conn.Close(); // Đảm bảo đóng kết nối
             }
         }
     }
