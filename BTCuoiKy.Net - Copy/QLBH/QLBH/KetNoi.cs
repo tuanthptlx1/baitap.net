@@ -10,7 +10,7 @@ namespace QLBH
 {
     class KetNoi
     {
-        string conStr = @"Data Source=NHAT\SQLEXPRESS;Initial Catalog=QuanLyHieuSach1;Integrated Security=True";
+        string conStr = @"Data Source=UMA\SQLEXPRESS;Initial Catalog=QuanLyHieuSach1;Integrated Security=True";
         SqlConnection conn;
         public KetNoi()
         {
