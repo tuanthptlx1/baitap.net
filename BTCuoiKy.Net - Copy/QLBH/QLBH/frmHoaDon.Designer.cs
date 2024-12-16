@@ -29,9 +29,12 @@
         private void InitializeComponent()
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.tabControl = new System.Windows.Forms.TabControl();
+            this.HoaDon = new System.Windows.Forms.TabPage();
+            this.dgvHoaDon = new System.Windows.Forms.DataGridView();
+            this.ChiTietHoaDon = new System.Windows.Forms.TabPage();
             this.dgvChiTietHoaDon = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.dgvHoaDon = new System.Windows.Forms.DataGridView();
             this.btnTimKiem = new System.Windows.Forms.Button();
             this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -59,18 +62,15 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.tabControl = new System.Windows.Forms.TabControl();
-            this.HoaDon = new System.Windows.Forms.TabPage();
-            this.ChiTietHoaDon = new System.Windows.Forms.TabPage();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietHoaDon)).BeginInit();
+            this.tabControl.SuspendLayout();
+            this.HoaDon.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHoaDon)).BeginInit();
+            this.ChiTietHoaDon.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietHoaDon)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            this.tabControl.SuspendLayout();
-            this.HoaDon.SuspendLayout();
-            this.ChiTietHoaDon.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox2
@@ -88,6 +88,50 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Dữ liệu";
             // 
+            // tabControl
+            // 
+            this.tabControl.Controls.Add(this.HoaDon);
+            this.tabControl.Controls.Add(this.ChiTietHoaDon);
+            this.tabControl.Location = new System.Drawing.Point(7, 78);
+            this.tabControl.Name = "tabControl";
+            this.tabControl.SelectedIndex = 0;
+            this.tabControl.Size = new System.Drawing.Size(874, 544);
+            this.tabControl.TabIndex = 16;
+            // 
+            // HoaDon
+            // 
+            this.HoaDon.Controls.Add(this.dgvHoaDon);
+            this.HoaDon.Location = new System.Drawing.Point(4, 25);
+            this.HoaDon.Name = "HoaDon";
+            this.HoaDon.Padding = new System.Windows.Forms.Padding(3);
+            this.HoaDon.Size = new System.Drawing.Size(866, 515);
+            this.HoaDon.TabIndex = 0;
+            this.HoaDon.Text = "HoaDon";
+            this.HoaDon.UseVisualStyleBackColor = true;
+            // 
+            // dgvHoaDon
+            // 
+            this.dgvHoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvHoaDon.Location = new System.Drawing.Point(4, 6);
+            this.dgvHoaDon.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvHoaDon.Name = "dgvHoaDon";
+            this.dgvHoaDon.RowHeadersWidth = 51;
+            this.dgvHoaDon.Size = new System.Drawing.Size(856, 505);
+            this.dgvHoaDon.TabIndex = 0;
+            this.dgvHoaDon.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHoaDon_CellClick_1);
+            this.dgvHoaDon.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgvHoaDon_MouseClick_1);
+            // 
+            // ChiTietHoaDon
+            // 
+            this.ChiTietHoaDon.Controls.Add(this.dgvChiTietHoaDon);
+            this.ChiTietHoaDon.Location = new System.Drawing.Point(4, 25);
+            this.ChiTietHoaDon.Name = "ChiTietHoaDon";
+            this.ChiTietHoaDon.Padding = new System.Windows.Forms.Padding(3);
+            this.ChiTietHoaDon.Size = new System.Drawing.Size(866, 515);
+            this.ChiTietHoaDon.TabIndex = 1;
+            this.ChiTietHoaDon.Text = "ChiTietHoaDon";
+            this.ChiTietHoaDon.UseVisualStyleBackColor = true;
+            // 
             // dgvChiTietHoaDon
             // 
             this.dgvChiTietHoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -95,7 +139,7 @@
             this.dgvChiTietHoaDon.Name = "dgvChiTietHoaDon";
             this.dgvChiTietHoaDon.RowHeadersWidth = 51;
             this.dgvChiTietHoaDon.RowTemplate.Height = 24;
-            this.dgvChiTietHoaDon.Size = new System.Drawing.Size(857, 150);
+            this.dgvChiTietHoaDon.Size = new System.Drawing.Size(857, 503);
             this.dgvChiTietHoaDon.TabIndex = 15;
             this.dgvChiTietHoaDon.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvChiTietHoaDon_CellClick);
             this.dgvChiTietHoaDon.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgvChiTietHoaDon_MouseClick);
@@ -109,18 +153,6 @@
             this.label1.Size = new System.Drawing.Size(65, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "Tìm kiếm:";
-            // 
-            // dgvHoaDon
-            // 
-            this.dgvHoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvHoaDon.Location = new System.Drawing.Point(4, 6);
-            this.dgvHoaDon.Margin = new System.Windows.Forms.Padding(4);
-            this.dgvHoaDon.Name = "dgvHoaDon";
-            this.dgvHoaDon.RowHeadersWidth = 51;
-            this.dgvHoaDon.Size = new System.Drawing.Size(856, 298);
-            this.dgvHoaDon.TabIndex = 0;
-            this.dgvHoaDon.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHoaDon_CellClick_1);
-            this.dgvHoaDon.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgvHoaDon_MouseClick_1);
             // 
             // btnTimKiem
             // 
@@ -403,38 +435,6 @@
             this.label12.TabIndex = 4;
             this.label12.Text = "Mã Chi TIết HD:";
             // 
-            // tabControl
-            // 
-            this.tabControl.Controls.Add(this.HoaDon);
-            this.tabControl.Controls.Add(this.ChiTietHoaDon);
-            this.tabControl.Location = new System.Drawing.Point(7, 78);
-            this.tabControl.Name = "tabControl";
-            this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(874, 544);
-            this.tabControl.TabIndex = 16;
-            // 
-            // HoaDon
-            // 
-            this.HoaDon.Controls.Add(this.dgvHoaDon);
-            this.HoaDon.Location = new System.Drawing.Point(4, 25);
-            this.HoaDon.Name = "HoaDon";
-            this.HoaDon.Padding = new System.Windows.Forms.Padding(3);
-            this.HoaDon.Size = new System.Drawing.Size(866, 515);
-            this.HoaDon.TabIndex = 0;
-            this.HoaDon.Text = "HoaDon";
-            this.HoaDon.UseVisualStyleBackColor = true;
-            // 
-            // ChiTietHoaDon
-            // 
-            this.ChiTietHoaDon.Controls.Add(this.dgvChiTietHoaDon);
-            this.ChiTietHoaDon.Location = new System.Drawing.Point(4, 25);
-            this.ChiTietHoaDon.Name = "ChiTietHoaDon";
-            this.ChiTietHoaDon.Padding = new System.Windows.Forms.Padding(3);
-            this.ChiTietHoaDon.Size = new System.Drawing.Size(866, 515);
-            this.ChiTietHoaDon.TabIndex = 1;
-            this.ChiTietHoaDon.Text = "ChiTietHoaDon";
-            this.ChiTietHoaDon.UseVisualStyleBackColor = true;
-            // 
             // frmHoaDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -449,16 +449,16 @@
             this.Load += new System.EventHandler(this.frmHoaDon_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietHoaDon)).EndInit();
+            this.tabControl.ResumeLayout(false);
+            this.HoaDon.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvHoaDon)).EndInit();
+            this.ChiTietHoaDon.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietHoaDon)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            this.tabControl.ResumeLayout(false);
-            this.HoaDon.ResumeLayout(false);
-            this.ChiTietHoaDon.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

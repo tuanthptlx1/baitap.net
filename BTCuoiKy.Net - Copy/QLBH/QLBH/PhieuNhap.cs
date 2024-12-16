@@ -57,26 +57,30 @@ namespace QLBH
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            string query = string.Format(
-                         "INSERT INTO PhieuNhap (MaPhieuNhap, NgayLap, MaNhaXuatBan,TongTien ) " +
-                         "VALUES ('{0}', '{1}', '{2}','{3}')",
-                         txtMaPhieuNhap.Text,
-                         txtNgayLap.Text,
-                         txtMaNhaXuatBan.Text,
-                         txtTongTien.Text
+            string queryPhieuNhap = string.Format(
+                     "INSERT INTO PhieuNhap (MaPhieuNhap, NgayLap, MaNhaXuatBan, TongTien) " +
+                     "VALUES (N'{0}', N'{1}', N'{2}', N'{3}')",
+                     txtMaPhieuNhap.Text,
+                     txtNgayLap.Text,
+                     txtMaNhaXuatBan.Text,
+                     txtTongTien.Text
+                 );
 
-                     );
+            // Chèn vào bảng ChiTietPhieuNhap: Tạo 1 dòng rỗng tương ứng với mã phiếu nhập
+            string queryChiTietPhieuNhap = string.Format(
+                             "INSERT INTO ChiTietPhieuNhap (MaChiTietPhieuNhap, MaPhieuNhap, MaSach , SoLuong, DonGia) " +
+                             "VALUES (NULL,N'{0}', NULL, NULL, NULL)", txtMaPhieuNhap.Text);
 
-            if (kn.ThucThi(query) == true)
+            // Thực thi cả hai câu lệnh SQL
+            if (kn.ThucThi(queryPhieuNhap) && kn.ThucThi(queryChiTietPhieuNhap))
             {
-                MessageBox.Show("Thêm mới thành công!");
+                MessageBox.Show("Thêm mới thành công! Chi tiết hóa đơn đã được tạo.");
                 btnLamMoi.PerformClick();
             }
             else
             {
                 MessageBox.Show("Thêm mới thất bại!");
             }
-           
         }
 
         private void btnSua_Click(object sender, EventArgs e)

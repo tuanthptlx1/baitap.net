@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QLBH.exe" size="328096">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QLBH.exe" size="322976">
       <assemblyIdentity name="QLBH" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DTcsbQJb0MLa3gI/8ccUNGIWX9nbKQBPEIHo76RlphI=</dsig:DigestValue>
+        <dsig:DigestValue>YfYxfHE2D0s1dR3DKozQ5ZB5EnMWoI1UKBd4YuFsEYE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

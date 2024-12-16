@@ -74,27 +74,21 @@ namespace QLBH
             string query = "";
 
             // Kiểm tra xem thao tác đang ở tab nào
-            if (tabControl.SelectedTab.Name == "tabHoaDon") // Tab HoaDon
+            if (tabControl.SelectedTab.Name == "HoaDon") // Thêm vào bảng HoaDon
             {
-                DateTime ngayLap;
-                if (!DateTime.TryParse(txtNgayLap.Text, out ngayLap))
-                {
-                    MessageBox.Show("Ngày lập không hợp lệ!");
-                    return;
-                }
                 query = string.Format(
                     "INSERT INTO HoaDon (MaHoaDon, NgayLap, MaKhachHang, TongTien) " +
                     "VALUES ('{0}', '{1}', '{2}', {3})",
-                    txtMaHoaDon.Text, ngayLap.ToString("yyyy-MM-dd"), txtMaKhachHang.Text, txtTongTien.Text);
+                    txtMaHoaDon.Text, txtNgayLap.Text, txtMaKhachHang.Text, txtTongTien.Text);
             }
-            else if (tabControl.SelectedTab.Name == "tabChiTietHoaDon") // Tab ChiTietHoaDon
+            else if (tabControl.SelectedTab.Name == "ChiTietHoaDon") // Thêm vào bảng ChiTietHoaDon
             {
-                // Thêm chi tiết hóa đơn với MaChiTietHoaDon nhập thủ công
                 query = string.Format(
                     "INSERT INTO ChiTietHoaDon (MaChiTietHoaDon, MaHoaDon, MaSach, SoLuong, DonGia) " +
-                    "VALUES ('{0}', '{1}', '{2}', {3}, {4})",
-                    txtMaChiTietHoaDon.Text, txtMaHoaDon.Text, txtMaSach.Text, txtSoLuong.Text, txtDonGia.Text);
+                    "VALUES (N'{0}', N'{1}', N'{2}', N'{3}', N'{4}')",
+                    txtMaChiTietHoaDon.Text, txtMaHoaDon1.Text, txtMaSach.Text, txtSoLuong.Text, txtDonGia.Text);
             }
+
 
             if (kn.ThucThi(query))
             {
@@ -112,7 +106,7 @@ namespace QLBH
             string query = "";
 
             // Kiểm tra xem tab hiện tại là tab nào
-            if (tabControl.SelectedTab.Name == "tabHoaDon") // Tab HoaDon
+            if (tabControl.SelectedTab.Name == "HoaDon") // Tab HoaDon
             {
                 // Kiểm tra dữ liệu đầu vào
                 if (string.IsNullOrEmpty(txtMaHoaDon.Text))
@@ -126,7 +120,7 @@ namespace QLBH
                     "WHERE MaHoaDon = '{3}'",
                     txtNgayLap.Text, txtMaKhachHang.Text, txtTongTien.Text, txtMaHoaDon.Text);
             }
-            else if (tabControl.SelectedTab.Name == "tabChiTietHoaDon") // Tab ChiTietHoaDon
+            else if (tabControl.SelectedTab.Name == "ChiTietHoaDon") // Tab ChiTietHoaDon
             {
                 // Kiểm tra dữ liệu đầu vào
                 if (string.IsNullOrEmpty(txtMaChiTietHoaDon.Text))
@@ -158,7 +152,7 @@ namespace QLBH
             string query = "";
 
             // Kiểm tra xem tab hiện tại là tab nào
-            if (tabControl.SelectedTab.Name == "tabHoaDon") // Tab HoaDon
+            if (tabControl.SelectedTab.Name == "HoaDon") // Tab HoaDon
             {
                 // Kiểm tra dữ liệu đầu vào
                 if (string.IsNullOrEmpty(txtMaHoaDon.Text))
@@ -170,7 +164,7 @@ namespace QLBH
                 query = string.Format(
                     "DELETE FROM HoaDon WHERE MaHoaDon = '{0}'", txtMaHoaDon.Text);
             }
-            else if (tabControl.SelectedTab.Name == "tabChiTietHoaDon") // Tab ChiTietHoaDon
+            else if (tabControl.SelectedTab.Name == "ChiTietHoaDon") // Tab ChiTietHoaDon
             {
                 // Kiểm tra dữ liệu đầu vào
                 if (string.IsNullOrEmpty(txtMaChiTietHoaDon.Text))
