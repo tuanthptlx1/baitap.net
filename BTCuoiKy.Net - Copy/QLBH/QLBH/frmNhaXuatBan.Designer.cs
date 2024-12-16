@@ -76,9 +76,9 @@
             this.label1.Location = new System.Drawing.Point(29, 32);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 16);
+            this.label1.Size = new System.Drawing.Size(118, 16);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Tên Khách Hàng:";
+            this.label1.Text = "Tên Nhà Xuất Bản:";
             // 
             // dgvNhaXuatBan
             // 
@@ -186,9 +186,9 @@
             this.label3.Location = new System.Drawing.Point(31, 90);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 16);
+            this.label3.Size = new System.Drawing.Size(118, 16);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Tên Khách Hàng:";
+            this.label3.Text = "Tên Nhà Xuất Bản:";
             // 
             // btnSua
             // 
@@ -208,9 +208,9 @@
             this.label2.Location = new System.Drawing.Point(31, 38);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 16);
+            this.label2.Size = new System.Drawing.Size(113, 16);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Mã Khách Hàng:";
+            this.label2.Text = "Mã Nhà Xuất Bản:";
             // 
             // groupBox3
             // 

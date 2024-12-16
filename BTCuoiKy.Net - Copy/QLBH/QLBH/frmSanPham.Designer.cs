@@ -73,6 +73,7 @@ namespace QLBH
             this.dgvSanPham.RowHeadersWidth = 51;
             this.dgvSanPham.Size = new System.Drawing.Size(872, 606);
             this.dgvSanPham.TabIndex = 0;
+            this.dgvSanPham.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSanPham_CellContentClick);
             this.dgvSanPham.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgvSanPham_MouseClick);
             // 
             // label1

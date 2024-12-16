@@ -44,7 +44,7 @@ namespace QLBH
         {
             string query = string.Format(
                   "INSERT INTO NhaXuatBan (MaNhaXuatBan, TenNhaXuatBan, DiaChi, DienThoai, Email) " +
-                  "VALUES ('{0}', N'{1}', N'{2}', N'{3}', N'{4}', '{5}')",
+                  "VALUES ('{0}', N'{1}', N'{2}', N'{3}', N'{4}')",
                   txtMaNhaXuatBan.Text,
                   txtTenNhaXuatBan.Text,
                   txtDiaChi.Text,

@@ -43,18 +43,18 @@
             this.btnThem = new System.Windows.Forms.Button();
             this.btnLamMoi = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.dgvChiTietPhieuNhap = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvPhieuNhap = new System.Windows.Forms.DataGridView();
             this.btnTimKiem = new System.Windows.Forms.Button();
             this.txtTimKiem = new System.Windows.Forms.TextBox();
-            this.dgvChiTietPhieuNhap = new System.Windows.Forms.DataGridView();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPhieuNhap)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietPhieuNhap)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPhieuNhap)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -228,6 +228,35 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Dữ liệu";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(5, 103);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(74, 16);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Phiếu nhập";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(7, 405);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(115, 16);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Chi tiết phiếu nhập";
+            // 
+            // dgvChiTietPhieuNhap
+            // 
+            this.dgvChiTietPhieuNhap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvChiTietPhieuNhap.Location = new System.Drawing.Point(7, 424);
+            this.dgvChiTietPhieuNhap.Name = "dgvChiTietPhieuNhap";
+            this.dgvChiTietPhieuNhap.RowHeadersWidth = 51;
+            this.dgvChiTietPhieuNhap.RowTemplate.Height = 24;
+            this.dgvChiTietPhieuNhap.Size = new System.Drawing.Size(868, 241);
+            this.dgvChiTietPhieuNhap.TabIndex = 13;
+            this.dgvChiTietPhieuNhap.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvChiTietPhieuNhap_CellContentClick);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -269,34 +298,6 @@
             this.txtTimKiem.Size = new System.Drawing.Size(567, 22);
             this.txtTimKiem.TabIndex = 11;
             // 
-            // dgvChiTietPhieuNhap
-            // 
-            this.dgvChiTietPhieuNhap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvChiTietPhieuNhap.Location = new System.Drawing.Point(7, 424);
-            this.dgvChiTietPhieuNhap.Name = "dgvChiTietPhieuNhap";
-            this.dgvChiTietPhieuNhap.RowHeadersWidth = 51;
-            this.dgvChiTietPhieuNhap.RowTemplate.Height = 24;
-            this.dgvChiTietPhieuNhap.Size = new System.Drawing.Size(868, 241);
-            this.dgvChiTietPhieuNhap.TabIndex = 13;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(7, 405);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(115, 16);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "Chi tiết phiếu nhập";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(5, 103);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 16);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "Phiếu nhập";
-            // 
             // PhieuNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -312,8 +313,8 @@
             this.groupBox3.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPhieuNhap)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietPhieuNhap)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPhieuNhap)).EndInit();
             this.ResumeLayout(false);
 
         }

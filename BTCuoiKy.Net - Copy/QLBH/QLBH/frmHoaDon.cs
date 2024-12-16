@@ -48,6 +48,11 @@ namespace QLBH
             txtNgayLap.Text = "";
             txtMaKhachHang.Text = "";
             txtTongTien.Text = "";
+            txtMaChiTietHoaDon.Clear();
+            txtMaHoaDon.Clear();
+            txtMaSach.Clear();
+            txtSoLuong.Clear();
+            txtDonGia.Clear();
 
         }
 
@@ -60,48 +65,87 @@ namespace QLBH
         private void btnLamMoi_Click(object sender, EventArgs e)
         {
             getData();
+            getData1();
             clearText();   
         }
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            string query = string.Format(
-                "INSERT INTO HoaDon (MaHoaDon, NgayLap, MaKhachHang,TongTien ) " +
-                "VALUES ('{0}', '{1}', '{2}','{3}')",
-                txtMaHoaDon.Text,
-                txtNgayLap.Text,
-                txtMaKhachHang.Text,
-                txtTongTien.Text
+            string query = "";
 
-            );
-
-            if (kn.ThucThi(query) == true)
+            // Kiểm tra xem thao tác đang ở tab nào
+            if (tabControl.SelectedTab.Name == "tabHoaDon") // Tab HoaDon
             {
-                MessageBox.Show("Thêm mới thành công!");
-                btnLamMoi.PerformClick();
+                DateTime ngayLap;
+                if (!DateTime.TryParse(txtNgayLap.Text, out ngayLap))
+                {
+                    MessageBox.Show("Ngày lập không hợp lệ!");
+                    return;
+                }
+                query = string.Format(
+                    "INSERT INTO HoaDon (MaHoaDon, NgayLap, MaKhachHang, TongTien) " +
+                    "VALUES ('{0}', '{1}', '{2}', {3})",
+                    txtMaHoaDon.Text, ngayLap.ToString("yyyy-MM-dd"), txtMaKhachHang.Text, txtTongTien.Text);
+            }
+            else if (tabControl.SelectedTab.Name == "tabChiTietHoaDon") // Tab ChiTietHoaDon
+            {
+                // Thêm chi tiết hóa đơn với MaChiTietHoaDon nhập thủ công
+                query = string.Format(
+                    "INSERT INTO ChiTietHoaDon (MaChiTietHoaDon, MaHoaDon, MaSach, SoLuong, DonGia) " +
+                    "VALUES ('{0}', '{1}', '{2}', {3}, {4})",
+                    txtMaChiTietHoaDon.Text, txtMaHoaDon.Text, txtMaSach.Text, txtSoLuong.Text, txtDonGia.Text);
+            }
+
+            if (kn.ThucThi(query))
+            {
+                MessageBox.Show("Thêm thành công!");
+                btnLamMoi.PerformClick(); // Làm mới dữ liệu
             }
             else
             {
-                MessageBox.Show("Thêm mới thất bại!");
+                MessageBox.Show("Thêm thất bại!");
             }
         }
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            string query = string.Format(
-                "UPDATE HoaDon SET NgayLap = N'{1}', MaKhachHang = N'{2}',TongTien = {3} "+
-                "WHERE MaHoaDon = '{0}'",
-                txtMaHoaDon.Text,
-                txtNgayLap.Text,
-                txtMaKhachHang.Text,
-                Convert.ToInt32(txtTongTien.Text)
+            string query = "";
 
-            );
+            // Kiểm tra xem tab hiện tại là tab nào
+            if (tabControl.SelectedTab.Name == "tabHoaDon") // Tab HoaDon
+            {
+                // Kiểm tra dữ liệu đầu vào
+                if (string.IsNullOrEmpty(txtMaHoaDon.Text))
+                {
+                    MessageBox.Show("Vui lòng nhập mã hóa đơn!");
+                    return;
+                }
 
-            if (kn.ThucThi(query) == true)
+                query = string.Format(
+                    "UPDATE HoaDon SET NgayLap = '{0}', MaKhachHang = '{1}', TongTien = {2} " +
+                    "WHERE MaHoaDon = '{3}'",
+                    txtNgayLap.Text, txtMaKhachHang.Text, txtTongTien.Text, txtMaHoaDon.Text);
+            }
+            else if (tabControl.SelectedTab.Name == "tabChiTietHoaDon") // Tab ChiTietHoaDon
+            {
+                // Kiểm tra dữ liệu đầu vào
+                if (string.IsNullOrEmpty(txtMaChiTietHoaDon.Text))
+                {
+                    MessageBox.Show("Vui lòng nhập mã chi tiết hóa đơn!");
+                    return;
+                }
+
+                query = string.Format(
+                    "UPDATE ChiTietHoaDon SET MaHoaDon = '{0}', MaSach = '{1}', SoLuong = {2}, DonGia = {3} " +
+                    "WHERE MaChiTietHoaDon = '{4}'",
+                    txtMaHoaDon.Text, txtMaSach.Text, txtSoLuong.Text, txtDonGia.Text, txtMaChiTietHoaDon.Text);
+            }
+
+            // Thực thi câu lệnh SQL
+            if (kn.ThucThi(query))
             {
                 MessageBox.Show("Sửa thành công!");
-                btnLamMoi.PerformClick();
+                btnLamMoi.PerformClick(); // Làm mới dữ liệu
             }
             else
             {
@@ -111,23 +155,39 @@ namespace QLBH
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(txtMaHoaDon.Text))
+            string query = "";
+
+            // Kiểm tra xem tab hiện tại là tab nào
+            if (tabControl.SelectedTab.Name == "tabHoaDon") // Tab HoaDon
             {
-                MessageBox.Show("Vui lòng chọn sách để xóa!");
-                return;
+                // Kiểm tra dữ liệu đầu vào
+                if (string.IsNullOrEmpty(txtMaHoaDon.Text))
+                {
+                    MessageBox.Show("Vui lòng nhập mã hóa đơn để xóa!");
+                    return;
+                }
+
+                query = string.Format(
+                    "DELETE FROM HoaDon WHERE MaHoaDon = '{0}'", txtMaHoaDon.Text);
+            }
+            else if (tabControl.SelectedTab.Name == "tabChiTietHoaDon") // Tab ChiTietHoaDon
+            {
+                // Kiểm tra dữ liệu đầu vào
+                if (string.IsNullOrEmpty(txtMaChiTietHoaDon.Text))
+                {
+                    MessageBox.Show("Vui lòng nhập mã chi tiết hóa đơn để xóa!");
+                    return;
+                }
+
+                query = string.Format(
+                    "DELETE FROM ChiTietHoaDon WHERE MaChiTietHoaDon = '{0}'", txtMaChiTietHoaDon.Text);
             }
 
-            // Câu lệnh SQL xóa dữ liệu
-            string query = string.Format(
-                "DELETE FROM HoaDon WHERE MaHoaDon = '{0}'",
-                txtMaHoaDon.Text
-            );
-
-            // Thực thi câu lệnh
-            if (kn.ThucThi(query) == true)
+            // Thực thi câu lệnh SQL
+            if (kn.ThucThi(query))
             {
                 MessageBox.Show("Xóa thành công!");
-                btnLamMoi.PerformClick();  // Làm mới dữ liệu
+                btnLamMoi.PerformClick(); // Làm mới dữ liệu
             }
             else
             {
@@ -138,15 +198,33 @@ namespace QLBH
 
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
-            // Câu lệnh SQL để tìm kiếm sách theo tên sách
-            string query = string.Format(
-                "SELECT * FROM HoaDon WHERE MaHoaDon LIKE N'%{0}%'",
-                txtTimKiem.Text
-            );
+            string query = "";
 
-            // Lấy dữ liệu từ cơ sở dữ liệu và gán cho DataGridView
-            DataSet ds = kn.LayDuLieu(query);
-            dgvHoaDon.DataSource = ds.Tables[0];
+            // Kiểm tra xem thao tác đang ở tab nào
+            if (tabControl.SelectedTab.Name == "tabHoaDon") // Tab HoaDon
+            {
+                // Câu lệnh SQL để tìm kiếm hóa đơn theo mã hóa đơn hoặc khách hàng
+                query = string.Format(
+                    "SELECT * FROM HoaDon WHERE MaHoaDon LIKE N'%{0}%' OR MaKhachHang LIKE N'%{0}%'",
+                    txtTimKiem.Text
+                );
+
+                // Lấy dữ liệu từ cơ sở dữ liệu và gán cho DataGridView
+                DataSet ds = kn.LayDuLieu(query);
+                dgvHoaDon.DataSource = ds.Tables[0];
+            }
+            else if (tabControl.SelectedTab.Name == "tabChiTietHoaDon") // Tab ChiTietHoaDon
+            {
+                // Câu lệnh SQL để tìm kiếm chi tiết hóa đơn theo mã chi tiết hóa đơn hoặc mã sách
+                query = string.Format(
+                    "SELECT * FROM ChiTietHoaDon WHERE MaChiTietHoaDon LIKE N'%{0}%' OR MaSach LIKE N'%{0}%'",
+                    txtTimKiem.Text
+                );
+
+                // Lấy dữ liệu từ cơ sở dữ liệu và gán cho DataGridView
+                DataSet ds = kn.LayDuLieu(query);
+                dgvChiTietHoaDon.DataSource = ds.Tables[0];
+            }
         }
 
         private void dgvHoaDon_CellClick_1(object sender, DataGridViewCellEventArgs e)
@@ -213,6 +291,49 @@ namespace QLBH
         {
 
         }
+
+        private void dgvChiTietHoaDon_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int r = e.RowIndex;
+            if (r >= 0)
+            {
+                // Kiểm tra nếu giá trị cột không phải null
+                btnThem.Enabled = false;     // Không cho phép thêm mới
+                btnSua.Enabled = true;       // Cho phép sửa
+                btnXoa.Enabled = true;       // Cho phép xóa
+
+                // Gán giá trị từ DataGridView vào các TextBox, kiểm tra null trước khi gán
+                txtMaChiTietHoaDon.Text = dgvChiTietHoaDon.Rows[r].Cells["MaChiTietHoaDon"].Value?.ToString() ?? "";
+                txtMaHoaDon1.Text = dgvChiTietHoaDon.Rows[r].Cells["MaHoaDon"].Value?.ToString() ?? "";
+                txtMaSach.Text = dgvChiTietHoaDon.Rows[r].Cells["MaSach"].Value?.ToString() ?? "";
+                txtSoLuong.Text = dgvChiTietHoaDon.Rows[r].Cells["SoLuong"].Value?.ToString() ?? "";
+                txtDonGia.Text = dgvChiTietHoaDon.Rows[r].Cells["DonGia"].Value?.ToString() ?? "";
+            }
+        }
+
+        private void dgvChiTietHoaDon_MouseClick(object sender, MouseEventArgs e)
+        {
+            DataGridView.HitTestInfo hit = dgvChiTietHoaDon.HitTest(e.X, e.Y);
+
+            // Nếu người dùng nhấp vào một hàng
+            if (hit.RowIndex >= 0)
+            {
+                // Lấy chỉ số của hàng mà người dùng nhấp vào
+                int rowIndex = hit.RowIndex;
+
+                // Gán giá trị từ các ô trong DataGridView vào các TextBox
+                txtMaChiTietHoaDon.Text = dgvChiTietHoaDon.Rows[rowIndex].Cells["MaChiTietHoaDon"].Value.ToString();
+                txtMaHoaDon1.Text = dgvChiTietHoaDon.Rows[rowIndex].Cells["MaHoaDon"].Value.ToString();
+                txtMaSach.Text = dgvChiTietHoaDon.Rows[rowIndex].Cells["MaSach"].Value.ToString();
+                txtSoLuong.Text = dgvChiTietHoaDon.Rows[rowIndex].Cells["SoLuong"].Value.ToString();
+                txtDonGia.Text = dgvChiTietHoaDon.Rows[rowIndex].Cells["DonGia"].Value.ToString();
+
+                // Cập nhật các button để phù hợp với thao tác
+                btnThem.Enabled = false;    // Không cho phép thêm mới
+                btnSua.Enabled = true;      // Cho phép sửa
+                btnXoa.Enabled = true;      // Cho phép xóa
+            }
+        }
+        }
     }
-}
 

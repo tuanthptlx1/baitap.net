@@ -200,6 +200,9 @@ namespace QLBH
             dgvChiTietPhieuNhap.DataSource = ds.Tables[0];
         }
 
+        private void dgvChiTietPhieuNhap_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
+        }
     }
 }

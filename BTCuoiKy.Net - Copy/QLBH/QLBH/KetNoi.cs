@@ -7,10 +7,15 @@ namespace QLBH
 {
     class KetNoi
     {
+<<<<<<< HEAD
         // Chuỗi kết nối
         private string connectionString;
         private SqlConnection conn;
 
+=======
+        string conStr = @"Data Source=UMA\SQLEXPRESS;Initial Catalog=QuanLyHieuSach1;Integrated Security=True";
+        SqlConnection conn;
+>>>>>>> e7a74af6ed5da090ba69ef5bea7af1291b9a8b08
         public KetNoi()
         {
             // Lấy chuỗi kết nối từ file App.config

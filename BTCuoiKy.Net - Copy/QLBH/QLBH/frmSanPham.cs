@@ -51,27 +51,64 @@ namespace QLBH
         private void btnThem_Click(object sender, EventArgs e)
         {
             // Đảm bảo cột trong bảng 'SanPham' khớp với tên cột trong câu lệnh SQL
+            // Kiểm tra thông tin
+            if (string.IsNullOrEmpty(txtMaSach.Text) ||
+                string.IsNullOrEmpty(txtTenSach.Text) ||
+                string.IsNullOrEmpty(txtTenTacGia.Text) ||
+                string.IsNullOrEmpty(txtNhaXuatBan.Text) ||
+                string.IsNullOrEmpty(txtNgayXuatBan.Text) ||
+                string.IsNullOrEmpty(txtTheLoai.Text) ||
+                string.IsNullOrEmpty(txtGia.Text) ||
+                string.IsNullOrEmpty(txtSoLuong.Text))
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin!");
+                return;
+            }
+
+            // Kiểm tra mã sách có tồn tại không
+            string checkQuery = string.Format("SELECT COUNT(*) FROM Sach WHERE MaSach = '{0}'", txtMaSach.Text);
+            DataSet ds = kn.LayDuLieu(checkQuery);
+            if (ds.Tables[0].Rows.Count > 0 && Convert.ToInt32(ds.Tables[0].Rows[0][0]) > 0)
+            {
+                MessageBox.Show("Mã sách đã tồn tại, vui lòng nhập mã khác!");
+                return;
+            }
+
+            // Chuẩn bị câu lệnh SQL thêm mới
             string query = string.Format(
+<<<<<<< HEAD
                 "INSERT INTO Sach (MaSach, TenSach, TenTacGia, NhaXuatBan, NgayXuatBan,MaTheLoai ,Gia, SoLuong) " +
                 "VALUES ('{0}', N'{1}', N'{2}', N'{3}', N'{4}', N'{5}', N'{6}',N'{7}')",
+=======
+                "INSERT INTO Sach (MaSach, TenSach, TenTacGia, NhaXuatBan, NgayXuatBan, MaTheLoai, Gia, SoLuong) " +
+                "VALUES ('{0}', N'{1}', N'{2}', N'{3}', '{4}', '{5}', {6}, {7})",
+>>>>>>> e7a74af6ed5da090ba69ef5bea7af1291b9a8b08
                 txtMaSach.Text,
                 txtTenSach.Text,
                 txtTenTacGia.Text,
                 txtNhaXuatBan.Text,
                 txtNgayXuatBan.Text,
                 txtTheLoai.Text,
-                txtGia.Text,
-                txtSoLuong.Text
+                Convert.ToDecimal(txtGia.Text),    // Đảm bảo giá trị giá là số
+                Convert.ToInt32(txtSoLuong.Text)  // Đảm bảo giá trị số lượng là số
             );
 
-            if (kn.ThucThi(query) == true)
+            // Thực thi câu lệnh
+            try
             {
-                MessageBox.Show("Thêm mới thành công!");
-                btnLamMoi.PerformClick();
+                if (kn.ThucThi(query))
+                {
+                    MessageBox.Show("Thêm mới thành công!");
+                    btnLamMoi.PerformClick();
+                }
+                else
+                {
+                    MessageBox.Show("Thêm mới thất bại!");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Thêm mới thất bại!");
+                MessageBox.Show("Lỗi: " + ex.Message);
             }
         }
 
@@ -200,5 +237,9 @@ namespace QLBH
 
         }
 
+        private void dgvSanPham_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
