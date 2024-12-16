@@ -47,10 +47,14 @@
             this.dgvPhieuNhap = new System.Windows.Forms.DataGridView();
             this.btnTimKiem = new System.Windows.Forms.Button();
             this.txtTimKiem = new System.Windows.Forms.TextBox();
+            this.dgvChiTietPhieuNhap = new System.Windows.Forms.DataGridView();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPhieuNhap)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietPhieuNhap)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -208,6 +212,9 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.dgvChiTietPhieuNhap);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.dgvPhieuNhap);
             this.groupBox2.Controls.Add(this.btnTimKiem);
@@ -234,11 +241,11 @@
             // dgvPhieuNhap
             // 
             this.dgvPhieuNhap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPhieuNhap.Location = new System.Drawing.Point(8, 71);
+            this.dgvPhieuNhap.Location = new System.Drawing.Point(8, 123);
             this.dgvPhieuNhap.Margin = new System.Windows.Forms.Padding(4);
             this.dgvPhieuNhap.Name = "dgvPhieuNhap";
             this.dgvPhieuNhap.RowHeadersWidth = 51;
-            this.dgvPhieuNhap.Size = new System.Drawing.Size(872, 606);
+            this.dgvPhieuNhap.Size = new System.Drawing.Size(872, 258);
             this.dgvPhieuNhap.TabIndex = 0;
             this.dgvPhieuNhap.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPhieuNhap_CellClick);
             this.dgvPhieuNhap.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgvPhieuNhap_MouseClick);
@@ -262,6 +269,34 @@
             this.txtTimKiem.Size = new System.Drawing.Size(567, 22);
             this.txtTimKiem.TabIndex = 11;
             // 
+            // dgvChiTietPhieuNhap
+            // 
+            this.dgvChiTietPhieuNhap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvChiTietPhieuNhap.Location = new System.Drawing.Point(7, 424);
+            this.dgvChiTietPhieuNhap.Name = "dgvChiTietPhieuNhap";
+            this.dgvChiTietPhieuNhap.RowHeadersWidth = 51;
+            this.dgvChiTietPhieuNhap.RowTemplate.Height = 24;
+            this.dgvChiTietPhieuNhap.Size = new System.Drawing.Size(868, 241);
+            this.dgvChiTietPhieuNhap.TabIndex = 13;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(7, 405);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(115, 16);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Chi tiết phiếu nhập";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(5, 103);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(74, 16);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Phiếu nhập";
+            // 
             // PhieuNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -272,13 +307,13 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "PhieuNhap";
             this.Text = "PhieuNhap";
-            
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPhieuNhap)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietPhieuNhap)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -304,5 +339,8 @@
         private System.Windows.Forms.DataGridView dgvPhieuNhap;
         private System.Windows.Forms.Button btnTimKiem;
         private System.Windows.Forms.TextBox txtTimKiem;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.DataGridView dgvChiTietPhieuNhap;
     }
 }

@@ -16,6 +16,7 @@ namespace QLBH
         {
             InitializeComponent();
             getData();
+            getData1();
         }
         KetNoi kn = new KetNoi();
         public void getData()
@@ -23,6 +24,12 @@ namespace QLBH
             string query = "SELECT * FROM PhieuNhap";
             DataSet ds = kn.LayDuLieu(query);
             dgvPhieuNhap.DataSource = ds.Tables[0];
+        }
+        public void getData1()
+        {
+            string query = " SELECT * FROM ChiTietPhieuNhap";
+            DataSet ds = kn.LayDuLieu(query);
+            dgvChiTietPhieuNhap.DataSource = ds.Tables[0];
         }
         
         public void clearText()
@@ -147,11 +154,17 @@ namespace QLBH
                 btnXoa.Enabled = true;       // Cho phép xóa
 
                 // Gán giá trị từ DataGridView vào các TextBox, kiểm tra null trước khi gán
-                txtMaPhieuNhap.Text = dgvPhieuNhap.Rows[r].Cells["MaPhieuNhap"].Value != DBNull.Value ? dgvPhieuNhap.Rows[r].Cells["MaPhieuNhap"].Value.ToString() : "";
-                txtNgayLap.Text = dgvPhieuNhap.Rows[r].Cells["NgayLap"].Value != DBNull.Value ? dgvPhieuNhap.Rows[r].Cells["NgayLap"].Value.ToString() : "";
-                txtMaNhaXuatBan.Text = dgvPhieuNhap.Rows[r].Cells["MaNhaXuatBan"].Value != DBNull.Value ? dgvPhieuNhap.Rows[r].Cells["MaNhaXuatBan"].Value.ToString() : "";
-                txtTongTien.Text = dgvPhieuNhap.Rows[r].Cells["TongTien"].Value != DBNull.Value ? dgvPhieuNhap.Rows[r].Cells["TongTien"].Value.ToString() : "";
+            
+                    // Gán giá trị vào các TextBox
+                    txtMaPhieuNhap.Text = dgvPhieuNhap.Rows[r].Cells["MaPhieuNhap"].Value?.ToString() ?? "";
+                    txtNgayLap.Text = dgvPhieuNhap.Rows[r].Cells["NgayLap"].Value?.ToString() ?? "";
+                    txtMaNhaXuatBan.Text = dgvPhieuNhap.Rows[r].Cells["MaNhaXuatBan"].Value?.ToString() ?? "";
+                    txtTongTien.Text = dgvPhieuNhap.Rows[r].Cells["TongTien"].Value?.ToString() ?? "";
 
+                    // Gọi hàm lọc chi tiết phiếu nhập
+                    string maPhieuNhap = txtMaPhieuNhap.Text;
+                    getChiTietPhieuNhap(maPhieuNhap);
+                
             }
         }
 
@@ -179,5 +192,14 @@ namespace QLBH
                 btnXoa.Enabled = true;      // Cho phép xóa
             }
         }
+
+        public void getChiTietPhieuNhap(string maPhieuNhap)
+        {
+            string query = string.Format("SELECT * FROM ChiTietPhieuNhap WHERE MaPhieuNhap = '{0}'", maPhieuNhap);
+            DataSet ds = kn.LayDuLieu(query);
+            dgvChiTietPhieuNhap.DataSource = ds.Tables[0];
+        }
+
+
     }
 }

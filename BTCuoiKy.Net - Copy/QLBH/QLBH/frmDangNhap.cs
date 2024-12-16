@@ -30,8 +30,10 @@ namespace QLBH
             DataSet ds = kn.LayDuLieu(query);
             if(ds.Tables[0].Rows.Count == 1)
             {
+                string role = ds.Tables[0].Rows[0]["role"].ToString();
                 MessageBox.Show("Đăng nhập thành công!");
                 frmHeThong frm = new frmHeThong();
+                frm.Role = role;
                 this.Hide();
                 frm.ShowDialog();
                 this.Show();

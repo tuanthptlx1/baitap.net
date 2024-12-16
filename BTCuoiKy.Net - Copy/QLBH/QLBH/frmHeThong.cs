@@ -12,6 +12,7 @@ namespace QLBH
 {
     public partial class frmHeThong : Form
     {
+        public string Role { get; set; }
         public frmHeThong()
         {
             InitializeComponent();
@@ -79,6 +80,15 @@ namespace QLBH
             PhieuNhap frm = new PhieuNhap();
             frm.MdiParent = null;
             frm.Show();
+        }
+
+        private void frmHeThong_Load(object sender, EventArgs e)
+        {
+            if (Role != "Admin")
+            {
+                nhânViênToolStripMenuItem.Enabled = false; // Vô hiệu hóa mục Nhân Viên
+                báoCáoThốngKêToolStripMenuItem.Enabled = false; // Vô hiệu hóa mục Báo Cáo Thống Kê
+            }
         }
     }
 }

@@ -16,6 +16,7 @@ namespace QLBH
         {
             InitializeComponent();
             getData();
+            getData1();
         }
 
         KetNoi kn = new KetNoi();
@@ -25,6 +26,13 @@ namespace QLBH
             string query = "select * from HoaDon";
             DataSet ds = kn.LayDuLieu(query);
             dgvHoaDon.DataSource = ds.Tables[0];
+        }
+
+        public void getData1()
+        {
+            string query = "select * from ChiTietHoaDon";
+            DataSet ds = kn.LayDuLieu(query);
+            dgvChiTietHoaDon.DataSource = ds.Tables[0];
         }
 
         public void clearText()
@@ -153,10 +161,14 @@ namespace QLBH
                 btnXoa.Enabled = true;       // Cho phép xóa
 
                 // Gán giá trị từ DataGridView vào các TextBox, kiểm tra null trước khi gán
-                txtMaHoaDon.Text = dgvHoaDon.Rows[r].Cells["MaHoaDon"].Value != DBNull.Value ? dgvHoaDon.Rows[r].Cells["MaHoaDon"].Value.ToString() : "";
-                txtNgayLap.Text = dgvHoaDon.Rows[r].Cells["NgayLap"].Value != DBNull.Value ? dgvHoaDon.Rows[r].Cells["NgayLap"].Value.ToString() : "";
-                txtMaKhachHang.Text = dgvHoaDon.Rows[r].Cells["MaKhachHang"].Value != DBNull.Value ? dgvHoaDon.Rows[r].Cells["MaKhachHang"].Value.ToString() : "";
-                txtTongTien.Text = dgvHoaDon.Rows[r].Cells["TongTien"].Value != DBNull.Value ? dgvHoaDon.Rows[r].Cells["TongTien"].Value.ToString() : "";
+                txtMaHoaDon.Text = dgvHoaDon.Rows[r].Cells["MaHoaDon"].Value?.ToString() ?? "";
+                txtNgayLap.Text = dgvHoaDon.Rows[r].Cells["NgayLap"].Value?.ToString() ?? "";
+                txtMaKhachHang.Text = dgvHoaDon.Rows[r].Cells["MaKhachHang"].Value?.ToString() ?? "";
+                txtTongTien.Text = dgvHoaDon.Rows[r].Cells["TongTien"].Value?.ToString() ?? "";
+
+                // Gọi hàm lọc chi tiết phiếu nhập
+                string maHoaDon = txtMaHoaDon.Text;
+                getChiTietPhieuNhap(maHoaDon);
 
             }
         }
@@ -186,6 +198,12 @@ namespace QLBH
             }
         }
 
+        public void getChiTietPhieuNhap(string maHoaDon)
+        {
+            string query = string.Format("SELECT * FROM ChiTietHoaDon WHERE MaHoaDon = '{0}'", maHoaDon);
+            DataSet ds = kn.LayDuLieu(query);
+            dgvChiTietHoaDon.DataSource = ds.Tables[0];
+        }
         private void txtTongTien_TextChanged(object sender, EventArgs e)
         {
 
